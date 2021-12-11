@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+    <title>Inscreva-se na Resilia!</title>
+</head>
+
+<body>
+    <div class="corpo">
+
+        <header class="titulo">
+            <h1>Venha fazer parte da <strong class="resilia"> Resilia</strong> :)</h1>
+            <p>Quer se tornar um DEV Full Stack em apenas 6 meses?</p>
+            <p>Se inscreva e venha para o time dos <strong>resilientes!</strong></p>
+        </header>
+
+
+        <form class="formulario">
+            <label for="nome completo"> <strong>Nome Completo</strong></label><br>
+            <input type="text" name="nome" id="nome" required>
+            <br>
+            <label><strong>Data de Nascimento</strong></label><br>
+            <input type="date" name="data de nascimento" id="data de nascimento" required>
+            <br>
+            <label><strong>E-mail</strong></label><br>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <label><strong>Celular/WhatsApp</strong></label><br>
+            <input type="tel" name="usertel" id="usertel" required>
+            <br>
+            <label><strong>Estado</strong></label><br>
+            <select id="estado">
+                <option selected disabled value="">Selecione</option>
+                <option>Rio de Janeiro</option>
+                <option>São Paulo</option>
+                <option>Paraná</option>
+            </select><br>
+
+
+            <label><strong>Por que você quer se tornar um DEV?</strong></label><br>
+            <select id="grupo">
+                <option>
+                    <selected disabled value="">Selecione
+                </option>
+                <option>Aprender programação do zero</option>
+                <option>Mudar de carreira</option>
+                <option>Já sou programador e quero aprimorar meus conhecimentos em hard skills</option>
+                <option>Já sou programador e quero aprimorar meus conhecimentos em soft skills</option>
+                <option>Ter mentoria profissional</option>
+                <option>Outro</option>
+            </select><br>
+
+            <input class="checkbox" type="checkbox">
+            <label><strong>Concorda com a nossa <a
+                        href="https://www.inscricoes.resilia.dev/politica-de-privacidade/">política de
+                        privacidade</strong></a></label>
+
+            <br>
+
+            <button class="botao" type="button">Enviar</button>
+
+        </form>
+    </div>
+</body>
+
+</html>

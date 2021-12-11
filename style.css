@@ -1,0 +1,67 @@
+body {
+    background-image: url(unknown.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 100%;
+} 
+.corpo {
+    width: 500px;
+    margin: auto;
+    border-radius: 32px;
+    box-shadow: 0px 0px 40px -4px rgb(0 0 0 / 20%);
+    padding: 48px 40px 48px 40px;
+    background-color: #fff;
+}
+.titulo {
+    background-color: #fff;
+    color: #0B0B0B;
+    font-family: "Archivo", sans-serif;
+    text-align: center;
+    margin-bottom: 50px;   
+}
+.resilia {
+    color: #ffd000;
+}
+.formulario {
+    font-family: "Archivo", sans-serif;
+    color: #707070;
+}
+.formulario label {
+    padding: 7px;
+}
+.formulario select, .formulario input {
+    width: 100%;
+    padding: 10px 12px;
+    border-style: solid;
+    border-color: transparent;
+    box-sizing: border-box;
+    margin: 10px 7px 20px 7px;
+    background-color: #e5e5e5;
+    border-radius: 5px;
+    font-family: "Archivo", sans-serif; 
+}
+.formulario .checkbox {
+    width: auto;
+}
+.botao {
+    margin: auto;
+    display: block;
+    width: 250px;
+    padding: 15px;
+    border-radius: 8px;
+    font-family: "Archivo", sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #ffd000;
+    color: #0B0B0B;
+    border-style: none;
+    font-weight: 600;
+}
+.botao:hover  {
+    cursor: pointer;
+    background-color: #fff;
+    border-color: #ffd000;
+    border-width: 2px;
+    border-style: solid;
+    color: #ffd000
+}
