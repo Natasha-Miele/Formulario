@@ -14,7 +14,7 @@ Esse projeto foi desenvolvido em julho de 2021 durante o 1º módulo do bootcamp
 </div>
 
 
-## Desenvolvido por 
+## :star: Desenvolvido por 
 
 <a href="https://www.linkedin.com/in/natashamiele/" target="_blank"><img src="https://user-images.githubusercontent.com/88165788/145696927-a0eed676-eac1-4765-a958-d7005bd3ca78.jpg" width="115px;" alt=""><br>
  <sub>Natasha Miele 💜</sub></a>
